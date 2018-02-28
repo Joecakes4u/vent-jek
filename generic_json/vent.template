@@ -1,0 +1,7 @@
+[info]
+name = Feature generation from CSVs
+groups = json
+
+[settings]
+ext_types = json
+process_base = yes

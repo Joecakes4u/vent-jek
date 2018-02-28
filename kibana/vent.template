@@ -1,0 +1,13 @@
+[info]
+name = Kibana
+groups = visualization
+
+[service]
+uri_prefix1 = http://
+
+[settings]
+priority = 1
+
+[docker]
+links = {"Elasticsearch":"elasticsearch"}
+publish_all_ports = True
